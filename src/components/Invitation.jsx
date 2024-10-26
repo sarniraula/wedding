@@ -25,7 +25,8 @@ const Invitation = () => {
         <img src={vespa} alt="vespa" className="h-32 mx-auto mb-4" />
 
         <p className="text-lg font-body2 text-gray-700 mb-8 max-w-xl mx-auto">
-          It would mean the world to us to have you join in celebrating our special day as we exchange vows and celebrate love and togetherness. We can't wait to share this memorable moment with you.
+          It would mean the world to us to have you join in celebrating our special day as we exchange 
+          vows and celebrate love and togetherness. We can't wait to share this memorable moment with you.
         </p>
 
         <div className="p-8 rounded-lg shadow-lg border-t-4 border-emerald-500 animate-fadeInUp">

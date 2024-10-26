@@ -3,6 +3,7 @@ import groom from '../assets/Groom.jpg';
 import bride from '../assets/Bride.jpg';
 import banner from '../assets/banner8.jpg';
 import Proposal from './Proposal';
+import WhosMostLikely from './WhosMostLikely';
 
 const Ourstory = () => {
   return (
@@ -105,6 +106,7 @@ const Ourstory = () => {
       </div>
 
       <Proposal />
+      <WhosMostLikely />
     </section>
   );
 };
