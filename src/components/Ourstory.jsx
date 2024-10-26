@@ -2,6 +2,7 @@ import React from 'react';
 import groom from '../assets/Groom.jpg';
 import bride from '../assets/Bride.jpg';
 import banner from '../assets/banner8.jpg';
+import Proposal from './Proposal';
 
 const Ourstory = () => {
   return (
@@ -102,6 +103,8 @@ const Ourstory = () => {
           </div>
         </div>
       </div>
+
+      <Proposal />
     </section>
   );
 };
