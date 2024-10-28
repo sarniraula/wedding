@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import banner from '../assets/banner9.jpeg'
+import banner from '../assets/banner9.jpg'
 import { FaHeart } from 'react-icons/fa';
 
 const Countdown = () => {

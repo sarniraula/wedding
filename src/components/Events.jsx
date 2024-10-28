@@ -1,4 +1,4 @@
-import banner from '../assets/banner5.jpeg';
+import banner from '../assets/banner5.jpg';
 import DressCode from './Dresscode';
 import Invitation from './Invitation';
 import Map from './Map';

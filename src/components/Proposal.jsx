@@ -1,5 +1,5 @@
 import React from 'react';
-import proposalImage from '../assets/banner9.jpeg'; // Replace with an actual proposal image
+import proposalImage from '../assets/banner9.jpg';
 
 const Proposal = () => {
   return (

@@ -33,7 +33,7 @@ const WhosMostLikely = () => {
   ];
 
   return (
-    <section id="whos-most-likely" className="relative py-20 px-6">
+    <section id="whos-most-likely" className="relative py-10 px-6">
       <div className="container mx-auto max-w-5xl text-center">
         
         {/* Section Title */}
