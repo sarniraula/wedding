@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import banner from '../assets/banner9.jpeg'
+import { FaHeart } from 'react-icons/fa';
 
 const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -44,7 +45,19 @@ const Countdown = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <div className="relative container mx-auto text-center">
+        <div className='flex items-center justify-center mb-20'>
+            <p className="text-2xl font-body2 text white font-extralight animate-slideUp border-y-2 py-2">
+            *** At Archdiocesan Shrine of the Sacred Heart of Jesus ***
+            </p>
+        </div>
+
         <h2 className="text-5xl font-cursive2 mb-10">Counting Down</h2>
+
+        <div className="flex items-center justify-center mb-20">
+          <div className="h-[2px] w-20 bg-white opacity-70"></div>
+          <FaHeart className="text-white mx-4" size={20} />
+          <div className="h-[2px] w-20 bg-white opacity-70"></div>
+        </div>
 
         <div className="flex justify-center space-x-8 text-center text-2xl font-semibold">
           <TimeBox label="Weeks" value={timeLeft.weeks} />
