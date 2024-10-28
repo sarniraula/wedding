@@ -12,7 +12,7 @@ const Countdown = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2024-12-31T00:00:00'); // Set the wedding date and time here
+    const targetDate = new Date('2025-05-17T15:30:00'); // Set the wedding date and time here
 
     const intervalId = setInterval(() => {
       const now = new Date();
@@ -45,7 +45,7 @@ const Countdown = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       <div className="relative container mx-auto text-center">
-        <div className='flex items-center justify-center mb-20'>
+        <div className='flex items-center tracking-widest justify-center mb-20'>
             <p className="text-2xl font-body2 text white font-extralight animate-slideUp border-y-2 py-2">
             *** At Archdiocesan Shrine of the Sacred Heart of Jesus ***
             </p>

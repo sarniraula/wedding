@@ -4,6 +4,7 @@ import Events from './components/Events';
 import RSVP from './components/RSVP';
 import Ourstory from './components/Ourstory';
 import Countdown from './components/Countdown';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Events />
       <Ourstory />
       <Countdown />
+      <Gallery />
       <RSVP />
     </div>
   );
