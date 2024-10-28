@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Events from './components/Events';
 import RSVP from './components/RSVP';
 import Ourstory from './components/Ourstory';
+import Countdown from './components/Countdown';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Home />
       <Events />
       <Ourstory />
+      <Countdown />
       <RSVP />
     </div>
   );
