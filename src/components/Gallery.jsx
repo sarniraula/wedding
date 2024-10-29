@@ -77,7 +77,7 @@ const Gallery = () => {
   ]
 
   return (
-    <section id="gallery" className="w-full max-w-6xl my-20 mx-auto p-4">
+    <section id="gallery" className="w-full max-w-6xl my-20 mx-auto p-4 scroll-mt-24">
       {/* Title with Heart Icon */}
       <div className="flex items-center justify-center gap-3 mb-6">
         <h2 className="text-5xl font-cursive2 font-semibold text-emerald-800">
