@@ -1,5 +1,5 @@
 import React from 'react';
-import proposalImage from '../assets/banner9.jpg';
+import proposalImage from '../assets/banner3.jpg';
 
 const Proposal = () => {
   return (
