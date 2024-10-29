@@ -9,7 +9,7 @@ const Ourstory = () => {
   return (
     <section 
         id='our-story'
-        className="py-28 relative bg-fixed bg-cover bg-center" 
+        className="py-20 relative bg-fixed bg-cover bg-center" 
         style={{
             backgroundImage: `url(${banner})`
           }}
@@ -18,9 +18,9 @@ const Ourstory = () => {
     {/* Background Overlay */}
     <div className="absolute inset-0 bg-white bg-opacity-50"></div>
 
-      <div className="relative container w-2/3 mx-auto px-4">
+      <div className="relative container md:w-2/3 mx-auto px-4">
         {/* Our First Date */}
-        <h2 className="text-5xl text-center font-cursive2 text-secondary mb-2">
+        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-2">
           Our First Date
         </h2>
         <p className="text-2xl text-center font-body2 text-secondary mb-2">
@@ -52,10 +52,10 @@ const Ourstory = () => {
           </div>
           
           {/* Groom Story + Image */}
-          <div className="order-4 md:order-3">
+          <div className="order-3 md:order-3">
             <img src={groom} alt='groom' className="shadow-lg w-full object-fill" />
           </div>
-          <div className="order-3 md:order-4">
+          <div className="order-4 md:order-4">
             <h3 className="text-lg text-emerald-800 mb-2">From Alfie's Perspective:</h3>
             <p className="text-sm font-body2 font-medium leading-relaxed text-justify text-gray-600">
                 To me, our first date was an exciting prospect, not just for the potential of romance but 
@@ -77,9 +77,9 @@ const Ourstory = () => {
       </div>
 
       {/* Shared Memory */}
-      <div className="relative container mt-20 w-2/3 mx-auto px-4">
+      <div className="relative container mt-20 md:w-2/3 mx-auto px-4">
         {/* Section Title */}
-        <h2 className="text-5xl text-center font-cursive2 text-secondary mb-2">
+        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-2">
           A Shared Memory
         </h2>
         

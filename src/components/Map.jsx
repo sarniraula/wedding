@@ -43,8 +43,8 @@ const Map = () => {
   if (!isLoaded) return <div>Loading...</div>;
 
   return (
-    <div className="relative w-1/2 mx-auto py-20 z-10">
-      <h2 className="text-center text-5xl mb-12 text-white font-cursive2">Get Directions</h2>
+    <div className="relative md:w-1/2 mx-auto py-20 z-10">
+      <h2 className="text-center text-4xl md:text-5xl mb-12 text-white font-cursive2">Get Directions</h2>
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14}>
         {directions && <DirectionsRenderer directions={directions} />}
       </GoogleMap>

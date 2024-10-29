@@ -46,12 +46,12 @@ const Countdown = () => {
 
       <div className="relative container mx-auto text-center">
         <div className='flex items-center tracking-widest justify-center mb-20'>
-            <p className="text-2xl font-body2 text white font-extralight animate-slideUp border-y-2 py-2">
+            <p className="text-xl md:text-2xl font-body2 text white font-extralight animate-slideUp border-y-2 py-2">
             *** At Archdiocesan Shrine of the Sacred Heart of Jesus ***
             </p>
         </div>
 
-        <h2 className="text-5xl font-cursive2 mb-10">Counting Down</h2>
+        <h2 className="text-4xl md:text-5xl font-cursive2 mb-10">Counting Down</h2>
 
         <div className="flex items-center justify-center mb-20">
           <div className="h-[2px] w-20 bg-white opacity-70"></div>
@@ -72,8 +72,8 @@ const Countdown = () => {
 };
 
 const TimeBox = ({ label, value }) => (
-  <div className="flex flex-col items-center bg-white bg-opacity-20 p-4 rounded-lg min-w-[80px]">
-    <span className="text-4xl font-bold">{value}</span>
+  <div className="flex flex-col items-center bg-white bg-opacity-20 md:p-4 rounded-lg md:min-w-[80px]">
+    <span className="text-2xl md:text-4xl font-bold">{value}</span>
     <span className="text-sm">{label}</span>
   </div>
 );

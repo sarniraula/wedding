@@ -41,7 +41,7 @@ const FAQs = () => {
     <section id="faqs" className="w-full max-w-3xl mx-auto p-4 mb-24 scroll-mt-24">
       {/* Section Title */}
       <div className="flex items-center justify-center gap-3 mb-6">
-        <h2 className="text-5xl font-cursive2 font-semibold text-emerald-800">
+        <h2 className="text-4xl md:text-5xl font-cursive2 font-semibold text-emerald-800">
           Frequently Asked Questions
         </h2>
       </div>

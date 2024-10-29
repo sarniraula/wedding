@@ -19,7 +19,7 @@ const Events = () => {
         <div className="absolute inset-0 bg-gray-900 bg-opacity-70 z-0"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <h2 className="text-center text-5xl mb-12 text-white font-cursive2">Wedding Events</h2>
+          <h2 className="text-center text-4xl md:text-5xl mb-12 text-white font-cursive2">Wedding Events</h2>
 
           <div className="relative flex flex-col items-center">
             {/* Vertical Timeline Line */}

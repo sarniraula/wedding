@@ -18,7 +18,7 @@ const Invitation = () => {
       <div className="relative z-10 max-w-3xl mx-auto text-center px-4">
         <img src={logo} alt="logo" className="h-24 mx-auto mb-4" />
 
-        <h2 className="text-5xl font-cursive2 mb-8 text-emerald-900 animate-fadeIn">
+        <h2 className="text-4xl md:text-5xl font-cursive2 mb-8 text-emerald-900 animate-fadeIn">
           You’re Invited
         </h2>
 

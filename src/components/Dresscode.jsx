@@ -13,10 +13,10 @@ const DressCode = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-5xl font-cursive2 mb-12 text-white animate-fadeIn">Dress Code</h2>
+        <h2 className="text-4xl md:text-5xl font-cursive2 mb-12 text-white animate-fadeIn">Dress Code</h2>
 
         <div className="flex justify-center gap-20 items-center">
-          <div className="text-white w-1/2">
+          <div className="text-white md:w-1/2">
             Gentlemen in suits or long-sleeve shirts, and ladies in long dresses, all in the elegant shade of emerald green.
           </div>
         </div>
