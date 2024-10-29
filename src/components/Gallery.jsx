@@ -77,10 +77,10 @@ const Gallery = () => {
   ]
 
   return (
-    <section className="w-full max-w-6xl my-20 mx-auto p-4">
+    <section id="gallery" className="w-full max-w-6xl my-20 mx-auto p-4">
       {/* Title with Heart Icon */}
       <div className="flex items-center justify-center gap-3 mb-6">
-        <h2 className="text-4xl font-cursive2 font-semibold text-emerald-800">
+        <h2 className="text-5xl font-cursive2 font-semibold text-emerald-800">
           Prenup Photos
         </h2>
       </div>
@@ -93,7 +93,7 @@ const Gallery = () => {
 
       {/* Description */}
       <div className="text-center mb-14 text-gray-700">
-        <p className="text-lg text-justify leading-relaxed">
+        <p className="text-lg text-justify font-body2 leading-relaxed">
           Step into the charming streets of Shibuya and Shinjuku, where the couple's prenup session unfolds like a romantic tale. Each photograph is a loving narrative, set against the vibrant and iconic cityscapes, and masterfully captured by the gifted 
           <span className="text-emerald-700 font-bold"> @numeography</span>. Swing by their profile to see the couple's love story come to life amidst the hustle and bustle of these dynamic Tokyo districts.
         </p>

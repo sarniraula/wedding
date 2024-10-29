@@ -66,13 +66,13 @@ const FlipCard = ({ icon, question, answer }) => {
             onClick={() => setFlipped(!flipped)}
         >
           <div className="mb-4">{icon}</div>
-          <h3 className="text-xl font-semibold text-gray-800">{question}</h3>
+          <h3 className="text-xl font-body2 font-semibold text-gray-800">{question}</h3>
         </div>
 
         <div className="flip-card-back w-[300px] h-[300px] bg-white shadow-lg p-6 rounded-lg flex items-center justify-center"
             onClick={() => setFlipped(!flipped)}
         >
-          <p className="text-sm text-gray-600 leading-relaxed">{answer}</p>
+          <p className="text-sm text-gray-600 font-body2 font-medium leading-relaxed">{answer}</p>
         </div>
       </ReactCardFlip>
     </div>

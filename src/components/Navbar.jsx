@@ -43,8 +43,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#events" className="text-gray-700 hover:border-b-2 border-secondary font-body2 flex items-center py-2">
-              EVENTS
+            <a href="#gallery" className="text-gray-700 hover:border-b-2 border-secondary font-body2 flex items-center py-2">
+              PRENUP PHOTOS
+            </a>
+          </li>
+          <li>
+            <a href="#faqs" className="text-gray-700 hover:border-b-2 border-secondary font-body2 flex items-center py-2">
+              FAQs
             </a>
           </li>
           <li>

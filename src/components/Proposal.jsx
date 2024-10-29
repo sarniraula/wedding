@@ -28,19 +28,19 @@ const Proposal = () => {
           
           {/* Text Section */}
           <div className="order-1 md:order-2 p-5 md:p-5 lg:p-5 text-gray-700">
-            <p className="text-sm font-body2 leading-relaxed mb-4">
+            <p className="text-sm font-body2 font-medium leading-relaxed mb-4">
               On the evening of January 3, 2024, as the celebration of Jan's birthday wound down to a cozy calm in her condo, 
               Alfie knew the time had come for a moment he had been meticulously planning for months.
             </p>
-            <p className="text-sm font-body2 leading-relaxed mb-4">
+            <p className="text-sm font-body2 font-medium leading-relaxed mb-4">
               With the remnants of the birthday dinner still lingering in the air, he handed Jan a heartfelt letter—the culmination 
               of secret preparations, heartfelt conversations, and a blessing from Jan’s parents. 
             </p>
-            <p className="text-sm font-body2 leading-relaxed mb-4">
+            <p className="text-sm font-body2 font-medium leading-relaxed mb-4">
               As Jan read through the lines, tears welled up, each word a reflection of their love. At the letter’s conclusion, 
               was the question, “Will you marry me?”
             </p>
-            <p className="text-sm font-body2 leading-relaxed mb-4">
+            <p className="text-sm font-body2 font-medium leading-relaxed mb-4">
               The proposal was beautifully intimate, filled with tears and laughter. They shared a sweet, memorable moment 
               when the engagement ring didn’t quite fit Jan’s ring finger but settled perfectly on her pinky. The next day, 
               they took the ring to be resized, marking the start of a two-week wait. When it returned, it was more than 

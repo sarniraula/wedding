@@ -16,10 +16,10 @@ const Events = () => {
         style={{ backgroundImage: `url(${banner})` }}
       > 
         {/* Background Overlay */}
-        <div className="absolute inset-0 bg-gray-900 bg-opacity-50 z-0"></div>
+        <div className="absolute inset-0 bg-gray-900 bg-opacity-70 z-0"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <h2 className="text-center text-4xl mb-12 text-white font-cursive2">Wedding Events</h2>
+          <h2 className="text-center text-5xl mb-12 text-white font-cursive2">Wedding Events</h2>
 
           <div className="relative flex flex-col items-center">
             {/* Vertical Timeline Line */}
@@ -35,7 +35,7 @@ const Events = () => {
                   {/* <div className="absolute w-2 h-2 bg-gray-100 rounded-full border-2 border-white left-1/2 transform -translate-x-1/2"></div> */}
                   
                   {/* Event Content */}
-                  <div className="p-4 text-center mx-auto text-white bg-opacity-30 bg-secondary rounded-md">
+                  <div className="p-4 text-center mx-auto text-white bg-opacity-50 bg-secondary rounded-md">
                     <h3 className="text-xl font-bold">{event.title}</h3>
                     <p className="text-md">{event.date}</p>
                     <p className="text-sm text-white">{event.venue}</p>

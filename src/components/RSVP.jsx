@@ -1,8 +1,19 @@
+import banner from '../assets/banner10.jpg';
+
 const RSVP = () => {
     return (
-      <section id="rsvp" className="py-20 bg-gray-100">
-        <h2 className="text-center text-3xl mb-8">RSVP</h2>
-        <form className="max-w-lg mx-auto bg-white p-8 rounded shadow-md">
+      <section 
+        id="rsvp" 
+        className="py-20 relative bg-fixed bg-cover" 
+        style={{ backgroundImage: `url(${banner})` }}
+      >
+
+        {/* Background Overlay */}
+        <div className="absolute inset-0 bg-gray-900 bg-opacity-30 z-0"></div>
+
+        {/* RSVP Form */}
+        <form className="relative max-w-lg mx-auto bg-white bg-opacity-80 p-8 rounded-lg shadow-md">
+          <h2 className="text-center text-3xl text-gray-700 font-body2 tracking-widest mb-8">RSVP</h2>
           <div className="mb-4">
             <label className="block text-gray-700">Name</label>
             <input type="text" className="w-full p-2 border border-gray-300 rounded" />

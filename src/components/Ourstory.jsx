@@ -31,7 +31,7 @@ const Ourstory = () => {
           {/* Bride Story + Image */}
           <div className="order-2 md:order-1">
             <h3 className="text-lg text-emerald-800 mb-2">From Jan's Perspective:</h3>
-            <p className="text-xs leading-relaxed text-justify text-gray-600">
+            <p className="text-sm font-body2 font-medium leading-relaxed text-justify text-gray-600">
                 The anticipation of our first date had me in knots. It had been ages since I'd been on a date, 
                 and the thought of meeting Alfie sent a flurry of butterflies through my stomach. I wanted 
                 everything to be perfect, so I found myself shopping for a new outfit the day before—top, 
@@ -57,7 +57,7 @@ const Ourstory = () => {
           </div>
           <div className="order-3 md:order-4">
             <h3 className="text-lg text-emerald-800 mb-2">From Alfie's Perspective:</h3>
-            <p className="text-xs leading-relaxed text-justify text-gray-600">
+            <p className="text-sm font-body2 font-medium leading-relaxed text-justify text-gray-600">
                 To me, our first date was an exciting prospect, not just for the potential of romance but 
                 also for the comfort of companionship during a time when the world felt so isolated. The 
                 pandemic had made such meetings rare, and knowing that Jan and I shared the same native 
@@ -86,7 +86,7 @@ const Ourstory = () => {
         <div className=" bg-opacity-80 bg-slate-50 shadow-lg p-5 rounded-lg items-center border-secondary-1">
           {/* Bride Story + Image */}
           <div className="order-2 md:order-1">
-            <p className="text-xs leading-relaxed text-justify text-gray-600">
+            <p className="text-sm font-body2 font-medium leading-relaxed text-justify text-gray-600">
                 The anticipation of our first date had me in knots. It had been ages since I'd been on a date, 
                 and the thought of meeting Alfie sent a flurry of butterflies through my stomach. I wanted 
                 everything to be perfect, so I found myself shopping for a new outfit the day before—top, 
