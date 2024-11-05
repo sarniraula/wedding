@@ -1,7 +1,4 @@
 import banner from '../assets/banner5.jpg';
-import DressCode from './Dresscode';
-import Invitation from './Invitation';
-import Map from './Map';
 
 const Events = () => {
     const events = [
@@ -12,7 +9,7 @@ const Events = () => {
     return (
       <section 
         id="events" 
-        className="pt-28 relative bg-fixed bg-cover" 
+        className="pt-28 relative bg-center bg-cover" 
         style={{ backgroundImage: `url(${banner})` }}
       > 
         {/* Background Overlay */}
@@ -46,10 +43,6 @@ const Events = () => {
             </ul>
           </div>
         </div>
-
-        <Map />
-        <DressCode />
-        <Invitation />
       </section>
     );
 };

@@ -7,13 +7,13 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 40.712776, // Approximate latitude for starting point (ceremony location)
-  lng: -74.005974 // Approximate longitude for starting point (ceremony location)
+  lat: 10.308966636657715, 
+  lng: 123.89906311035156 
 };
 
 const Map = () => {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: import.meta.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
     libraries: ['places']
   });
 
@@ -26,8 +26,8 @@ const Map = () => {
 
     directionsService.route(
       {
-        origin: { lat: 40.712776, lng: -74.005974 }, // Ceremony Location (St. Patrick's Cathedral)
-        destination: { lat: 40.730610, lng: -73.935242 }, // Reception Location (The Grand Ballroom)
+        origin: { lat: 10.308966636657715, lng: 123.89906311035156 }, // Ceremony Location (St. Patrick's Cathedral)
+        destination: { lat: 10.324919700622559, lng: 123.93675994873047 }, // Reception Location (Bai Hotel Cebu)
         travelMode: window.google.maps.TravelMode.DRIVING
       },
       (result, status) => {

@@ -1,12 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import banner1 from '../assets/banner1.jpg';
 import banner2 from '../assets/banner2.jpg';
 import banner3 from '../assets/banner3.jpg';
 
 const Home = () => {
-  const images = [banner1, banner2, banner3]; // Array of background images
-  const [currentImage, setCurrentImage] = useState(0); // State to track the current image
+  const images = [banner1, banner2, banner3];
+  const [currentImage, setCurrentImage] = useState(0);
 
   // Handler for the next image
   const nextImage = () => {
@@ -17,6 +17,12 @@ const Home = () => {
   const prevImage = () => {
     setCurrentImage((prevImage) => (prevImage - 1 + images.length) % images.length);
   };
+
+  // Set up interval for automatic image change
+  useEffect(() => {
+    const interval = setInterval(nextImage, 5000); // Change image every 5 seconds
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
 
   return (
     <section
@@ -56,7 +62,7 @@ const Home = () => {
         <div className="absolute top-4 w-56 h-28 rounded-t-full bg-white flex justify-center items-center">
           <div className="text-center">
             <p className="text-2xl font-body2 font-normal text-secondary">Save the Date</p>
-            <p className="text-md font-extralight tracking-widest font-body2 text-secondary">May 17, 2025</p>
+            <p className="text-lg font-light tracking-widest font-body2 text-secondary">May 17, 2025</p>
           </div>
         </div>
       </div>

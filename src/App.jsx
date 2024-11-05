@@ -6,6 +6,9 @@ import Ourstory from './components/Ourstory';
 import Countdown from './components/Countdown';
 import Gallery from './components/Gallery';
 import FAQs from './components/FAQs';
+import DressCode from './components/Dresscode';
+import Invitation from './components/Invitation';
+import Map from './components/Map';
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Navbar />
       <Home />
       <Events />
+        <Map />
+        <DressCode />
+        {/* <Invitation /> */}
       <Ourstory />
       <Countdown />
       <Gallery />
