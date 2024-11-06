@@ -4,6 +4,7 @@ import bride from '../assets/Bride.jpg';
 import banner from '../assets/banner8.jpg';
 import Proposal from './Proposal';
 import WhosMostLikely from './WhosMostLikely';
+import { FaHeart } from 'react-icons/fa';
 
 const Ourstory = () => {
   return (
@@ -20,9 +21,16 @@ const Ourstory = () => {
 
       <div className="relative container md:w-2/3 mx-auto px-4">
         {/* Our First Date */}
-        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-2">
+        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-8">
           Our First Date
         </h2>
+
+        <div className='flex items-center gap-3 mb-8 justify-center'>
+        <div className="h-1 w-16 bg-emerald-600"></div>
+          <FaHeart className="text-emerald-600" size={20} />
+        <div className="h-1 w-16 bg-emerald-600"></div>
+      </div>
+
         <p className="text-2xl text-center font-body2 text-secondary mb-2">
           A Tale of Coffee, Conversations, and Concealed Blisters
         </p>
@@ -65,12 +73,13 @@ const Ourstory = () => {
                 It was like a reunion of sorts, a chance to reminisce and connect with someone who could 
                 understand parts of me that are often tucked away in the city.
                 <br /><br />
-                To me, our first date was an exciting prospect, not just for the potential of romance but 
-                also for the comfort of companionship during a time when the world felt so isolated. The 
-                pandemic had made such meetings rare, and knowing that Jan and I shared the same native tongue 
-                of Bisaya and had walked the same halls in college added an extra layer of excitement. It was 
-                like a reunion of sorts, a chance to reminisce and connect with someone who could understand 
-                parts of me that are often tucked away in the city.
+                As we moved from the coffee shop to dinner and then to drinks, I found myself enjoying Jan's 
+                company more and more. There was an ease between us, a shared laughter that seemed to bridge 
+                any gap that might have existed. Little did I know, Jan was enduring a silent battle with her 
+                new shoes, a detail she kept hidden with a grace I only came to know about much later. 
+                It's funny how, in trying to make a good impression, we sometimes put ourselves through 
+                unnecessary pain. Yet, in the end, it was the simplicity of our connection that truly made 
+                the day memorable.								
             </p>
           </div>
         </div>
@@ -79,9 +88,15 @@ const Ourstory = () => {
       {/* Shared Memory */}
       <div className="relative container mt-20 md:w-2/3 mx-auto px-4">
         {/* Section Title */}
-        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-2">
+        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-8">
           A Shared Memory
         </h2>
+
+        <div className='flex items-center gap-3 mb-8 justify-center'>
+        <div className="h-1 w-16 bg-emerald-600"></div>
+          <FaHeart className="text-emerald-600" size={20} />
+        <div className="h-1 w-16 bg-emerald-600"></div>
+      </div>
         
         <div className=" bg-opacity-80 bg-slate-50 shadow-lg p-5 rounded-lg items-center border-secondary-1">
           {/* Bride Story + Image */}

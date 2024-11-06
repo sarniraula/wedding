@@ -36,7 +36,7 @@ const Countdown = () => {
 
   return (
     <section 
-      className="py-20 relative bg-cover bg-center text-white"
+      className="py-20 relative bg-cover bg-fixed bg-center text-white"
       style={{
         backgroundImage: `url(${banner})`, // Replace with your background image path
       }}

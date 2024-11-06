@@ -37,9 +37,15 @@ const WhosMostLikely = () => {
       <div className="container mx-auto max-w-5xl text-center">
         
         {/* Section Title */}
-        <h2 className="text-5xl font-cursive2 text-emerald-900 mb-10">
+        <h2 className="text-5xl font-cursive2 text-emerald-900 mb-8">
           Who's Most Likely To?
         </h2>
+
+        <div className='flex items-center gap-3 mb-8 justify-center'>
+          <div className="h-1 w-16 bg-emerald-600"></div>
+            <FaHeart className="text-emerald-600" size={20} />
+          <div className="h-1 w-16 bg-emerald-600"></div>
+        </div>
         
         {/* Card Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

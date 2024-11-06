@@ -79,13 +79,13 @@ const Gallery = () => {
   return (
     <section id="gallery" className="w-full max-w-6xl my-20 mx-auto p-4 scroll-mt-24">
       {/* Title with Heart Icon */}
-      <div className="flex items-center justify-center gap-3 mb-6">
+      <div className="flex items-center justify-center gap-3 mb-8">
         <h2 className="text-5xl font-cursive2 font-semibold text-emerald-800">
           Prenup Photos
         </h2>
       </div>
 
-      <div className='flex items-center gap-3 mb-24 justify-center'>
+      <div className='flex items-center gap-3 mb-8 justify-center'>
         <div className="h-1 w-16 bg-emerald-600"></div>
           <FaHeart className="text-emerald-600" size={20} />
         <div className="h-1 w-16 bg-emerald-600"></div>

@@ -1,5 +1,6 @@
 import { GoogleMap, DirectionsRenderer, useLoadScript } from '@react-google-maps/api';
 import { useEffect, useState } from 'react';
+import { FaHeart } from 'react-icons/fa';
 
 const containerStyle = {
   width: '100%',
@@ -44,7 +45,14 @@ const Map = () => {
 
   return (
     <div className="relative md:w-1/2 mx-auto py-20 z-10">
-      <h2 className="text-center text-4xl md:text-5xl mb-12 text-white font-cursive2">Get Directions</h2>
+      <h2 className="text-center text-4xl md:text-5xl text-emerald-600 mb-8 font-cursive2">Get Directions</h2>
+
+      <div className='flex items-center gap-3 mb-8 justify-center'>
+        <div className="h-1 w-16 bg-emerald-600"></div>
+          <FaHeart className="text-emerald-600" size={20} />
+        <div className="h-1 w-16 bg-emerald-600"></div>
+      </div>
+
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14}>
         {directions && <DirectionsRenderer directions={directions} />}
       </GoogleMap>

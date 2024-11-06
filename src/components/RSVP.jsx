@@ -29,15 +29,6 @@ const RSVP = () => {
             <input id="name" name="name" type="text" className="w-full p-2 border border-gray-300 rounded" />
           </div>
           <div className="mb-4">
-            <label className="block text-gray-700">Email</label>
-            <input id="email" type="email" className="w-full p-2 border border-gray-300 rounded" />
-            <ValidationError 
-              prefix="Email" 
-              field="email"
-              errors={state.errors}
-            />
-          </div>
-          <div className="mb-4">
             <label className="block text-gray-700">Will you attend?</label>
             <select id="Attend" name="attend" className="w-full p-2 border border-gray-300 rounded">
               <option>Yes</option>

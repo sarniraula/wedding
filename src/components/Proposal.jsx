@@ -1,5 +1,6 @@
 import React from 'react';
 import proposalImage from '../assets/banner3.jpg';
+import { FaHeart } from 'react-icons/fa';
 
 const Proposal = () => {
   return (
@@ -10,9 +11,15 @@ const Proposal = () => {
       <div className="container mx-auto max-w-5xl text-gray-800 relative z-10">
         
         {/* Section Title */}
-        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-emerald-900 mb-6">
+        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-emerald-900 mb-8">
           The Intimate Proposal
         </h2>
+
+        <div className='flex items-center gap-3 mb-8 justify-center'>
+        <div className="h-1 w-16 bg-emerald-600"></div>
+          <FaHeart className="text-emerald-600" size={20} />
+        <div className="h-1 w-16 bg-emerald-600"></div>
+      </div>
         
         {/* Content Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-white shadow-lg rounded-lg overflow-hidden">
