@@ -37,7 +37,7 @@ const WhosMostLikely = () => {
       <div className="container mx-auto max-w-5xl text-center">
         
         {/* Section Title */}
-        <h2 className="text-5xl font-cursive2 text-emerald-900 mb-8">
+        <h2 className="text-5xl font-cursive2 text-secondary mb-8">
           Who's Most Likely To?
         </h2>
 

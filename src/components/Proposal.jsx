@@ -11,7 +11,7 @@ const Proposal = () => {
       <div className="container mx-auto max-w-5xl text-gray-800 relative z-10">
         
         {/* Section Title */}
-        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-emerald-900 mb-8">
+        <h2 className="text-4xl md:text-5xl text-center font-cursive2 text-secondary mb-8">
           The Intimate Proposal
         </h2>
 
