@@ -3,11 +3,11 @@ import { useForm, ValidationError } from '@formspree/react';
 
 
 const RSVP = () => {
-    const [state, handleSubmit] = useForm("mjkvgldp");
+    const [state, handleSubmit] = useForm("xvgoaavg");
     if (state.succeeded) {
       return (
-        <div className="flex font-cursive2 items-center justify-center mx-auto">
-          <p>Thanks for joining!</p>;
+        <div className="flex font-cursive2 text-emerald-600 text-4xl items-center justify-center mx-auto mb-20">
+          <p>Thanks for joining!</p>
         </div>
       )
     }
