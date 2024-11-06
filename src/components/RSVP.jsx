@@ -24,11 +24,11 @@ const RSVP = () => {
         {/* RSVP Form */}
         <form onSubmit={handleSubmit} className="relative max-w-lg mx-auto bg-white bg-opacity-80 p-8 rounded-lg shadow-md">
           <h2 className="text-center text-3xl text-gray-700 font-body2 tracking-widest mb-8">RSVP</h2>
-          <div className="mb-4">
+          <div className="mb-4 font-body2 tracking-wide">
             <label className="block text-gray-700">Name</label>
             <input id="name" name="name" type="text" className="w-full p-2 border border-gray-300 rounded" />
           </div>
-          <div className="mb-4">
+          <div className="mb-4 font-body2 tracking-wide">
             <label className="block text-gray-700">Will you attend?</label>
             <select id="Attend" name="attend" className="w-full p-2 border border-gray-300 rounded">
               <option>Yes</option>
