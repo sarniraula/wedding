@@ -124,19 +124,22 @@ const Gallery = () => {
         <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
           <div className="relative p-1 bg-white rounded-lg shadow-lg max-w-5xl w-full">
             <button
-              className="absolute top-2 right-2 m-4 px-2 rounded-full bg-white bg-opacity-70 text-black text-xl font-bold"
+              className="absolute top-4 right-4 m-4 px-2 rounded-full bg-white bg-opacity-70 text-black text-xl font-bold z-10"
               onClick={closeModal}
             >
               &times;
             </button>
-            <img
-              src={selectedImage}
-              alt="Selected"
-              className="w-full h-auto rounded-md"
-            />
+            <div className="flex justify-center items-center p-4">
+              <img
+                src={selectedImage}
+                alt="Selected"
+                className="max-w-full max-h-[80vh] object-contain rounded-md"
+              />
+            </div>
           </div>
         </div>
       )}
+
     </section>
   );
 };
