@@ -31,7 +31,8 @@ const Home = () => {
       className="h-screen bg-cover bg-center relative flex flex-col justify-center items-center"
     >
       <div className="flex flex-col justify-center items-center h-full bg-opacity-50 bg-secondary text-white">
-        <h1 className="text-5xl md:text-8xl mb-4 p-20 font-cursive2 animate-fadeIn">Jan & Alfie</h1>
+        <h1 className="text-5xl md:text-8xl mb-6 px-20 font-cursive2 animate-fadeIn">Jan & Alfie</h1>
+        <p className='mb-20 text-sm md:text-xl md:font-bold font-body2 tracking-widest'>#oriJANallymeantforALFIE</p>
         <p className="text-lg md:text-2xl font-body2 tracking-extremeWide font-extralight animate-slideUp border-y-2 py-2">
           WE'RE GETTING MARRIED
         </p>
