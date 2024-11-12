@@ -1,5 +1,5 @@
 import { FaHeart } from 'react-icons/fa';
-import banner from '../assets/banner5.jpg';
+import banner from '../assets/banner5.png';
 
 const Events = () => {
     const events = [

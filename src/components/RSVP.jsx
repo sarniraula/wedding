@@ -1,4 +1,4 @@
-import banner from '../assets/banner10.jpg';
+import banner from '../assets/banner10.png';
 import { useForm, ValidationError } from '@formspree/react';
 
 
