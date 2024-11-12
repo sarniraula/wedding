@@ -5,7 +5,7 @@ const DressCode = () => {
   return (
     <section
       id="dress-code"
-      className="py-12 md:py-52 bg-contain bg-center md:bg-bottom md:bg-cover bg-fixed relative"
+      className="py-12 md:py-52 bg-cover bg-center md:bg-bottom md:bg-cover md:bg-fixed relative"
       style={{ backgroundImage: `url(${backgroundPattern})` }}
     >
       {/* Background overlay for better contrast */}

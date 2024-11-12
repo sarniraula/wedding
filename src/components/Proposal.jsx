@@ -22,19 +22,19 @@ const Proposal = () => {
       </div>
         
         {/* Content Container */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-2 p-5 gap-8 items-center bg-white shadow-lg rounded-lg overflow-hidden">
           
           {/* Image Section */}
           <div className="order-1 md:order-1 relative h-80 md:h-full">
             <img 
               src={proposalImage} 
               alt="Proposal moment" 
-              className="w-full h-full object-contain md:object-cover"
+              className="w-full h-full object-cover md:object-cover"
             />
           </div>
           
           {/* Text Section */}
-          <div className="order-2 md:order-2 p-5 md:p-5 lg:p-5 text-gray-700">
+          <div className="order-2 md:order-2 text-gray-700 text-justify">
             <p className="text-sm font-body2 font-medium leading-relaxed mb-4">
               On the evening of January 3, 2024, as the celebration of Jan's birthday wound down to a cozy calm in her condo, 
               Alfie knew the time had come for a moment he had been meticulously planning for months.
