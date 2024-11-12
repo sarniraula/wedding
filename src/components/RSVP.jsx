@@ -14,7 +14,7 @@ const RSVP = () => {
     return (
       <section 
         id="rsvp" 
-        className="py-20 relative bg-fixed bg-cover" 
+        className="py-20 relative md:bg-fixed bg-cover bg-right" 
         style={{ backgroundImage: `url(${banner})` }}
       >
 

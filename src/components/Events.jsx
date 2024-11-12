@@ -10,7 +10,7 @@ const Events = () => {
     return (
       <section 
         id="events" 
-        className="pt-28 relative bg-fixed bg-center bg-cover" 
+        className="pt-28 relative md:bg-fixed bg-center bg-cover" 
         style={{ backgroundImage: `url(${banner})` }}
       > 
         {/* Background Overlay */}
