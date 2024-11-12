@@ -5,7 +5,7 @@ import banner2 from '../assets/banner2.jpg';
 import banner3 from '../assets/banner3.jpg';
 
 const Home = () => {
-  const images = [banner1, banner2, banner3];
+  const images = [banner3, banner1, banner2];
   const [currentImage, setCurrentImage] = useState(0);
 
   // Handler for the next image

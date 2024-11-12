@@ -7,7 +7,7 @@ const RSVP = () => {
     if (state.succeeded) {
       return (
         <div className="flex font-cursive2 text-emerald-600 text-4xl items-center justify-center mx-auto mb-20">
-          <p>Thanks for joining!</p>
+          <p>Thanks for confirming!</p>
         </div>
       )
     }

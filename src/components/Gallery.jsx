@@ -94,8 +94,11 @@ const Gallery = () => {
       {/* Description */}
       <div className="text-center mb-14 text-gray-700">
         <p className="text-lg text-justify font-body2 leading-relaxed">
-          Step into the charming streets of Shibuya and Shinjuku, where the couple's prenup session unfolds like a romantic tale. Each photograph is a loving narrative, set against the vibrant and iconic cityscapes, and masterfully captured by the gifted 
-          <span className="text-emerald-700 font-bold"> @numeography</span>. Swing by their profile to see the couple's love story come to life amidst the hustle and bustle of these dynamic Tokyo districts.
+          Step into the charming streets of Shibuya and Shinjuku, where the couple's prenup session unfolds 
+          like a romantic tale. Each photograph is a loving narrative, set against the vibrant and iconic 
+          cityscapes, and masterfully captured by the gifted 
+          <span className="text-emerald-700 font-bold"> @numeography</span>. Check out their photos below 
+          to see the couple's love story come to life amidst the hustle and bustle of these dynamic Tokyo districts.
         </p>
       </div>
 

@@ -23,7 +23,7 @@ const WhosMostLikely = () => {
     {
       icon: <FaMicrophone size={60} className="text-blue-500" />,
       question: "Who's Most Likely to Sing in Karaoke?",
-      answer: "If it's public karaoke, Jan's the one to step up to the mic, loving every moment of it. But in private, Alfie takes the stage, serenading Jan with confidence when they’re alone, making it an intimate performance just for her.",
+      answer: "If it's public karaoke, Jan's the one to step up to the mic, loving every moment of it. She's fearless and doesn't mind if she hits a few off notes—she's all about the fun of the moment. But in private, Alfie takes the stage, serenading Jan with confidence when they’re alone, making it an intimate performance just for her.",
     },
     {
       icon: <FaGift size={60} className="text-purple-600" />,

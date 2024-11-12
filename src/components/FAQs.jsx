@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp, FaHeart } from 'react-icons/fa';
+import qrCode from '../assets/QR.png';
 
 const FAQs = () => {
   const faqData = [
@@ -34,6 +35,8 @@ const FAQs = () => {
     {
       question: "Is it okay to take pictures with our phones and cameras during the wedding?",
       answer: "Snap and share your unique view of our wedding on our online album at dots.com to help create a collective story of the day's joy and surprises.",
+      img: qrCode,
+      link: 'https://onelifesocial.page.link/abfy'
     },
   ];
 
@@ -61,14 +64,14 @@ const FAQs = () => {
       {/* FAQ Items */}
       <div className="space-y-4">
         {faqData.map((faq, index) => (
-          <FAQItem key={index} question={faq.question} answer={faq.answer} />
+          <FAQItem key={index} question={faq.question} answer={faq.answer} img={faq.img} link={faq.link}/>
         ))}
       </div>
     </section>
   );
 };
 
-const FAQItem = ({ question, answer }) => {
+const FAQItem = ({ question, answer, img , link}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -88,6 +91,18 @@ const FAQItem = ({ question, answer }) => {
       {isOpen && (
         <p className="mt-2 text-gray-600 tracking-wide text-lg font-body2 font-medium leading-relaxed">
           {answer}
+          {link && (
+            <a href={link} target="_blank" rel="noreferrer" className="text-emerald-600 text-center underline block mt-4">
+              {link}
+            </a>
+          )}
+          {img && (
+            <img
+            src={img}
+            alt="QR code"
+            className="mt-4 mx-auto w-32 h-32" 
+          />
+          )}
         </p>
       )}
     </div>

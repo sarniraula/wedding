@@ -5,11 +5,11 @@ const DressCode = () => {
   return (
     <section
       id="dress-code"
-      className="py-20 bg-cover bg-center relative"
+      className="py-12 md:py-52 bg-contain bg-center md:bg-bottom md:bg-cover bg-fixed relative"
       style={{ backgroundImage: `url(${backgroundPattern})` }}
     >
       {/* Background overlay for better contrast */}
-      <div className="absolute inset-0 bg-black bg-opacity-30 z-0"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50 z-0"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
@@ -23,7 +23,8 @@ const DressCode = () => {
 
         <div className="flex justify-center gap-20 items-center">
           <div className="text-white font-body2 text-lg tracking-wider md:w-1/2">
-          Gentlemen in suits, and ladies in long dresses in the elegant shades of green.
+            For our celebration, we invite gentlemen to don sharp suits and ladies to wear 
+            elegant long dresses in the shades of green, together weaving an evening of style and class.
           </div>
         </div>
       </div>
