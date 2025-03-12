@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp, FaHeart } from 'react-icons/fa';
 import qrCode from '../assets/QR.png';
+import bpi from '../assets/bpi.png';
+import gcash from '../assets/gcash.png';
 
 const FAQs = () => {
   const faqData = [
@@ -23,6 +25,7 @@ const FAQs = () => {
     {
       question: "Can I bring a gift to the wedding?",
       answer: "We're thrilled to celebrate with you and while your presence is the greatest gift, if you wish to contribute, a cash gift to support our new journey together would be appreciated—no pressure, just looking forward to good times with you!",
+      images: [bpi, gcash],
     },
     {
       question: "What if I can't make it?",
@@ -35,7 +38,7 @@ const FAQs = () => {
     {
       question: "Is it okay to take pictures with our phones and cameras during the wedding?",
       answer: "Snap and share your unique view of our wedding on our online album at dots.com to help create a collective story of the day's joy and surprises.",
-      img: qrCode,
+      images: [qrCode],
       link: 'https://onelifesocial.page.link/abfy'
     },
   ];
@@ -64,14 +67,14 @@ const FAQs = () => {
       {/* FAQ Items */}
       <div className="space-y-4">
         {faqData.map((faq, index) => (
-          <FAQItem key={index} question={faq.question} answer={faq.answer} img={faq.img} link={faq.link}/>
+          <FAQItem key={index} question={faq.question} answer={faq.answer} images={faq.images} link={faq.link}/>
         ))}
       </div>
     </section>
   );
 };
 
-const FAQItem = ({ question, answer, img , link}) => {
+const FAQItem = ({ question, answer, images , link}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -96,12 +99,14 @@ const FAQItem = ({ question, answer, img , link}) => {
               {link}
             </a>
           )}
-          {img && (
-            <img
-            src={img}
-            alt="QR code"
-            className="mt-4 mx-auto w-32 h-32" 
-          />
+
+          {/* Render multiple images if available */}
+          {images?.length > 0 && (
+            <div className="flex flex-wrap justify-center gap-4 mt-4">
+              {images.map((img, idx) => (
+                <img key={idx} src={img} alt={`FAQ image ${idx + 1}`} className="w-80 h-80 object-cover" />
+              ))}
+            </div>
           )}
         </p>
       )}
