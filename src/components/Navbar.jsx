@@ -79,6 +79,11 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="#invitation" className="text-gray-700 hover:border-b-2 border-secondary font-body2 flex items-center py-2">
+              INVITATION
+            </a>
+          </li>
+          <li>
             <a href="#our-story" className="text-gray-700 hover:border-b-2 border-secondary font-body2 flex items-center py-2">
               OUR STORY
             </a>
