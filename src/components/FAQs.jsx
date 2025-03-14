@@ -24,7 +24,7 @@ const FAQs = () => {
     },
     {
       question: "Can I bring a gift to the wedding?",
-      answer: "We're thrilled to celebrate with you and while your presence is the greatest gift, if you wish to contribute, a cash gift to support our new journey together would be appreciated—no pressure, just looking forward to good times with you!",
+      answer: "We're thrilled to celebrate with you! Your presence is the greatest gift, and while we cherish the moments we'll share, we’ve included some bank QR codes (BPI and Gcash) for your convenience, should you feel inspired to contribute to our new journey together. No pressure at all—just looking forward to creating wonderful memories with you!",
       images: [bpi, gcash],
     },
     {
@@ -33,7 +33,7 @@ const FAQs = () => {
     },
     {
       question: "What should I wear?",
-      answer: "For our celebration, we invite gentlemen to don sharp suits or crisp long sleeve shirts and ladies to wear elegant long dresses in emerald green, together weaving an evening of style and class.",
+      answer: "For our celebration, we invite gentlemen to don sharp suits and ladies to wear elegant long dresses in the shades of emerald green, together weaving an evening of style and class",
     },
     {
       question: "Is it okay to take pictures with our phones and cameras during the wedding?",
