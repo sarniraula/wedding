@@ -17,7 +17,7 @@ function App() {
       <Home />
       <Events />
         <Map />
-        <DressCode />
+        {/* <DressCode /> */}
       <Invitation />
       <Ourstory />
       <Countdown />
